@@ -1,0 +1,74 @@
+body {
+    font-family: Montserrat;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #63badf;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type='text'] {
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 14px;
+    border: none;
+    width: 300px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #9aa337;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d09f1a;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.photo-card {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.photo-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.info-item {
+    margin: 0;
+}
+
+.load-more {
+    margin: 30px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+}
